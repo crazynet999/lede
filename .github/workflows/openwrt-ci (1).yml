@@ -281,8 +281,8 @@ jobs:
           CONFIG_PACKAGE_xray-plugin=y
           CONFIG_PACKAGE_xz=y
           CONFIG_PACKAGE_xz-utils=y
-          CONFIG_TARGET_KERNEL_PARTSIZE=1000
-          CONFIG_TARGET_ROOTFS_PARTSIZE=5000
+          CONFIG_TARGET_KERNEL_PARTSIZE=600
+          CONFIG_TARGET_ROOTFS_PARTSIZE=2000
           # CONFIG_VMDK_IMAGES is not set
           CONFIG_boost-compile-visibility-hidden=y
           CONFIG_boost-runtime-shared=y
